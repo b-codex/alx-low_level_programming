@@ -1,1 +1,1 @@
-this is c programming source code for pointers and arrays
+0x06-pointers_arrays_strings
