@@ -1,1 +1,1 @@
-ALX static lib
+# 0x09-static_libraries

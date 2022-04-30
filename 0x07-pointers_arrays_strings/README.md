@@ -1,1 +1,1 @@
-this is a list of c codes about pointers and arrays
+0x07-pointers_arrays_strings
