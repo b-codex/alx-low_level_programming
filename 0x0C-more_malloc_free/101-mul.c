@@ -2,7 +2,6 @@
 #include <stdio.h> 
 #include <limits.h>
 #include<stdlib.h>
-#include <unistd.h>
 /**
  * str_len - finds string length
  * @str: input pointer to string
@@ -271,17 +270,3 @@ int main(int argc, char **argv)
   print_me(sum_result, len_r);
   
   return (0); }
-
-
-
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
