@@ -1,10 +1,10 @@
-#include "main.h"
+#include "bootcamp.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
 
 /**
- * main - check the code
+ * main - check the code for a software development program students.
  *
  * Return: Always 0.
  */

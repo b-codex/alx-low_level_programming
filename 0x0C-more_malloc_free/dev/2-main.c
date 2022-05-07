@@ -1,4 +1,4 @@
-#include "main.h"
+#include "bootcamp.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +10,7 @@
  *
  * Return: Nothing.
  */
-void simple_print_buffer(int *buffer, unsigned int size)
+void simple_print_buffer(char *buffer, unsigned int size)
 {
     unsigned int i;
 
@@ -32,16 +32,18 @@ void simple_print_buffer(int *buffer, unsigned int size)
 }
 
 /**
- * main - check the code
+ * main - check the code for a software development program students.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    int *a;
+    char *a;
 
-    a = array_range(0, 10);
-    simple_print_buffer(a, 11);
-    free(a);
+    a = _calloc(98, sizeof(char));
+    strcpy(a, "Bootcamp");
+    strcpy(a + 9, " School! :)\n");
+    a[97] = '!';
+    simple_print_buffer(a, 98);
     return (0);
 }
