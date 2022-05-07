@@ -16,10 +16,3 @@ The focus of these projects is learning the C Programming Language.
 * how and when to use ``exit()`` to leave a function
 * functions: ``calloc()`` and ``realloc()``
 
-## Author
-
-David John Coleman II, [davidjohncoleman.com](http://www.davidjohncoleman.com/)
-
-## License
-
-MIT License
